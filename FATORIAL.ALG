@@ -13,7 +13,7 @@ inicio
                 res <- res* fat
                 fat <- fat -1
           Ate (fat < 1 )
-      Escreval(res)
+      Escreval("= ", res)
       Escreval("Quer fazer de outro numero ? {S/N}")
       leia(usuario)
       LimpaTela
